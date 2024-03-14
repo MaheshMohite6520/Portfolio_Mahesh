@@ -33,15 +33,12 @@ html
     font-size: 20px;
     color: black;
     font-weight: bolder;
-    font-family: sans-serif;
+    font-family: Algerian red;
     padding-left: 10px;
 }
 .navmenu:hover
 {
     text-decoration: underline;
-    margin-top: 15px;
-    font-size: 25px;
-    transition-duration: 0.4s;
 }
 
 .portfolio-section h1 
@@ -50,13 +47,13 @@ html
     padding-top: 30px;
 }
 
-
 .brand  
 {
     color: red;
     font-size: 40px;
-    font-weight: 30px;
-    font-family: Footlight MT Light;  
+    font-weight: bolder;
+    font-family: Algerian red; 
+    text-decoration: none; 
 }
 
 
@@ -131,7 +128,7 @@ html
     color: red;
     font-size: 50px;
     font-weight: bold;
-    font-family: Footlight MT Light;
+    font-family: Arial black;
 }
 .name:hover
 {
@@ -141,30 +138,33 @@ html
 
 .designation
 {
-  color: rgb(161, 1, 185);
+  color: orange;
   font-size: 40px;
   font-weight: bold;
 }
 .designation:hover
 {
-  color: rgb(161, 1, 185);
+  color: orange;
   text-decoration: none;
 }
 
 .resume-button
 {
-  padding-left: 8px;
-  padding-right: 8px;
+  height: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
   border: 2px solid rgb(161, 1, 185);
-  border-radius: 30px;
-  font-size: 18px;
-  background-color: rgb(255, 255, 255);
-  color:rgb(161, 1, 185) ;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: blue;
+  color:white ;
 }
 .resume-button:hover
 {
   font-size: 20px;
-  color: white;
-  background-color: rgb(161, 1, 185);  
+  color: blue;
+  font-weight: bold;
+  background-color: white;  
   transition-duration: 0.4s;
 }
