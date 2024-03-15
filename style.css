@@ -28,7 +28,8 @@ html {
 }
 
 .navmenu:hover {
-    color: #1ebbd7;
+    color: #FE6F5E;
+    font-weight: bolder;
     transition: 0.5s;
     text-decoration: underline;
     text-underline-offset: 5px;
@@ -53,7 +54,7 @@ html {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-
+    color: #FF0800;
 }
 
 .main-container {
@@ -86,12 +87,11 @@ html {
 .info {
     font-size: 40px;
     font-weight: bolder;
-    color: #e52672;
+    color: #8B0000;
 }
 
 .myname {
     font-size: 50px;
-
 }
 
 .designation {
@@ -103,7 +103,8 @@ html {
 .rsmbtn {
     height: 60px;
     width: 180px;
-    color: #4c80cd;
+    background-color: #ADFF2F;
+    color: #004225;
     border: none;
     font-weight: bolder;
     margin-left: 10px;
@@ -115,7 +116,8 @@ html {
 .rsmbtn:hover {
     transform: scale(1.1);
     box-shadow: 0px 0px 20px #4CCD99;
-    color: #007F73;
+    background-color: #004225;
+    color: #ADFF2F;
     background-color: white;
     border: 2px solid #4CCD99;
 }
