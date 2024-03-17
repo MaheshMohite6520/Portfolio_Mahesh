@@ -28,7 +28,12 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
+
+    <!-- AOS link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="style.css" />
+
     <title>Mahesh Portfolio</title>
   </head>
 
@@ -37,7 +42,7 @@
     <div class="navigation-bar">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#"
-          ><span class="brand tracking-in-expand">Mahesh</span>
+          ><span class="brand focus-in-contract-bck">Mahesh</span>
         </a>
         <button
           class="navbar-toggler"
@@ -91,12 +96,16 @@
         <div id="home-info">
           <span class="info">Hi</span> <br />
           <span class="info">My Name is </span><br />
-          <span class="myname brand">Mahesh</span> <br />
+          <span class="myname brand focus-in-contract-bck">Mahesh Mohite</span>
+          <br />
           <span class="info"
             >I am a <span class="designation"> Full Stack Developer</span></span
           >
           <br />
-          <button href="resume.pdf" class="rsmbtn">RESUME</button>
+          <a
+            href="https://doc-00-3o-prod-00-apps-viewer.googleusercontent.com/viewer2/prod-00/pdf/7gpfnom80mn9uev3jm272pj13aotls4l/dur0m55mtnqctidjqdjktea025oseu9p/1710684225000/3/108610267276035940911/APznzaZp1fgfeZNHvuYSlb7hExmO_h68hdZyL2FAQTeIdz4cZbndoMZQKlopfoaangvHhJxQQdHreOHEkdv7isAxhCO4DwwQN5xdu8xCXd3BdWQfjs2zFmVnqNSS_6AGN4mdT2iZXZA66T-nMXNQGjpHvqUiGLxzDo4ZRyi8v3zJIPfJSuRYN85cqY_AYSPmGTSta2_dwtB-EGw1sltcTKK5BFAWOU3ssMM4ztoIIbVyTSw1pzZvcigRDaJFcw4EaALrvSUT6YOhGi2UwjVb4K6jfU-Okal3naIRIXH1nJMRejf4ewSE20U4lHeXaeLRUSXflNjRZ5jeCnk9lnspUjRpkaLQejd_tyD8nOILY8FyNHVTNrs4c3rPP2ZYDmUdnnGqp89MKjRliaBzMsdVn8p1jlEhufHAtwZYnv-1TE_lXLwQy8OjT2g=?authuser=0&nonce=nu89illd8o12s&user=108610267276035940911&hash=9mudcsfou8sne4rhkmncndrunujnruoh"
+            ><button class="rsmbtn">RESUME</button></a
+          >
         </div>
       </section>
       <!-- home section ends here -->
@@ -125,15 +134,179 @@
       </section>
       <!-- about section ends here -->
 
-      <section id="skills" class="portfolio-section">
-        <h1>SKILLS</h1>
+      <!-- skills section starts here -->
+      <section id="skills" class="portfolio-section skill-section">
+        <h1 id="heading">SKILLS</h1>
+
+        <table
+          id="tb"
+          class="tbl"
+          height="450px"
+          width="90%"
+          cellspacing="20px"
+        >
+          <tr align="center" valign="top">
+            <div class="effect">
+              <td width="50%">
+                <h2 class="sub-heading">Languages</h2>
+                <p class="detailed-skills">Core Java, HTML, CSS, SQL</p>
+              </td>
+            </div>
+
+            <div class="effect">
+              <td width="50%">
+                <h2 class="sub-heading">API's & Frameworks</h2>
+                <p class="detailed-skills">
+                  Collection, Streams API, REST API, Servelets
+                </p>
+              </td>
+            </div>
+          </tr>
+
+          <tr align="center" valign="top">
+            <div class="effect">
+              <td width="50%">
+                <h2 class="sub-heading">Tools</h2>
+                <p class="detailed-skills">
+                  VS Code, Eclipse IDE, Git, Github, Postman, Mysql workbench,
+                  MongoDB
+                </p>
+              </td>
+            </div>
+
+            <div class="effect">
+              <td width="50%">
+                <h2 class="sub-heading">Operating Systems</h2>
+                <p class="detailed-skills">
+                  Windows, Android, mac os, Linux, Ubuntu
+                </p>
+              </td>
+            </div>
+          </tr>
+        </table>
       </section>
+      <!-- skills section ends here -->
+
+      <!-- project section starts here -->
       <section id="project" class="portfolio-section">
-        <h1>PROJECT</h1>
+        <h1 id="heading">PROJECT</h1>
+
+        <div class="all-project">
+          <div class="row row-cols-1 row-cols-md-2 project-style">
+            <div class="col mb-4">
+              <div class="card">
+                <img
+                  src="https://tse4.mm.bing.net/th?id=OIP.yDBqiO_eZ5gBKhzEQ8hV3gHaHa&pid=Api&P=0&h=180"
+                  class="card-img-top"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <h5 class="card-title" align="center">
+                    <a
+                      href="https://github.com/MaheshMohite6520/Weather-Prediction-App.git"
+                      >Weather App</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    WeatherWise is a comprehensive weather application designed
+                    to provide users with accurate and up-to-date weather
+                    information. This project aims to offer a user-friendly
+                    interface coupled with powerful features to deliver an
+                    enhanced weather forecasting experience
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4 project-style">
+              <div class="card">
+                <img
+                  src="https://tse4.mm.bing.net/th?id=OIP.2FKaqXMTcftce06eLWibGQHaE_&pid=Api&P=0&h=180"
+                  class="card-img-top"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <h5 class="card-title" align="center">
+                    <a href="https://github.com/MaheshMohite6520/Quiz-App.git"
+                      >Quiz System</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    Quizzify is an innovative quiz system designed to facilitate
+                    interactive learning and assessment experiences. This
+                    project aims to provide a dynamic platform where users can
+                    create, share, and participate in quizzes across various
+                    topics and subjects.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4 project-style">
+              <div class="card">
+                <img
+                  src="https://tse4.mm.bing.net/th?id=OIP.eCc3Ns9kZ4BT7pWTI815JQAAAA&pid=Api&P=0&h=180"
+                  class="card-img-top"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <h5 class="card-title" align="center">
+                    <a
+                      href="https://github.com/MaheshMohite6520/travel_advisor.git"
+                      >Travel Advisor</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    TravelAdvisorR is a comprehensive travel recommendation
+                    system designed to assist users in planning memorable and
+                    enriching travel experiences. This project aims to leverage
+                    the power of data analytics and machine learning to provide
+                    personalized travel recommendations tailored to each user's
+                    preferences, interests, and budget constraints
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4 project-style">
+              <div class="card">
+                <img
+                  src="https://tse1.mm.bing.net/th?id=OIP.E8zeXACIeoWVDT75loN1owHaHa&pid=Api&P=0&h=180"
+                  class="card-img-top"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <h5 class="card-title" align="center">
+                    <a
+                      href="https://github.com/MaheshMohite6520/Currency-Converter.git"
+                      >Currency Converter</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    CurrencyXchange is a versatile currency converter designed
+                    to provide users with accurate and up-to-date currency
+                    exchange rates for seamless international transactions and
+                    financial planning. This project aims to offer a
+                    user-friendly interface coupled with powerful features to
+                    deliver a convenient currency conversion experience
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+      <!-- project section ends here -->
+
       <section id="contact" class="portfolio-section">
         <h1>CONTACT</h1>
       </section>
     </div>
+
+    <!-- AOS script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
   </body>
 </html>
