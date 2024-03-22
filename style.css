@@ -1,16 +1,22 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'poppins', sans-serif;
 }
-body{
+
+body
+{
     color: #ededed;
     /* background: #081b29; */
-    background: orangered;
+    /* background: orangered; */
+    background: rgb(255, 87, 34) ;
 }
-.header{
+
+.header
+{
     position: fixed;
     top: 0;
     left: 0;
@@ -23,9 +29,11 @@ body{
     align-items: center;
     z-index: 100;
 }
-.logo{
+
+.logo
+{
     position: relative;
-    font-size: 25px;
+    font-size: 30px;
     color: #fff;
     text-decoration: none;
     font-weight: 600;
@@ -56,7 +64,7 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background:url("") no-repeat;
+    /* background:url("") no-repeat; */
     /* background:  #008080; */
     background-size: cover;
     background-position: center;
@@ -143,17 +151,24 @@ body{
     0 0 100px cyan, 0 0 200px cyan,;
 }
 
+.image {
+    padding-left: 50px;
+}
+
 .about{
+    height: 800px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1.5rem;
 }
 .about-img img{
-    padding-bottom: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
     max-width: 630px;
-    height: auto;
-    width: 100%;
+    height: 700px;
+    width: 500px;
     border-radius: 8px;
 }
 .about-text h2{
@@ -176,6 +191,7 @@ body{
     line-height: 1.4;
     margin-bottom: 4rem
 }
+
 #services{
     color: aliceblue;
     font-size: 20px;
@@ -226,6 +242,7 @@ body{
     margin-top: 20px;
     display: inline-block;
 }
+
 .read{
     display: inline-block;
     padding: 12px 28px;
@@ -465,9 +482,10 @@ section{
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
 } 
+
 .main-text{
-    padding-top: 130px;
-    margin-top: 200px;
+    padding-top: 60px;
+    margin-top: 20px;
 }
 .main-text h2{
     font-size: 60px;
@@ -477,12 +495,16 @@ section{
 .main-text h2 span{
     color: #0ef;
 }
+
 .portfolio-content{
-    display: flex;
+    padding-top: 30px;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     /* justify-content: center;
     align-items: center;
     flex-wrap: wrap; */
-    grid-template-columns: repeat(auto-fit, minmax(359px,auto));
+    /* grid-template-columns: repeat(auto-fit, minmax(359px,auto)); */
 }
 .row{
     flex: 1 1 30rem;
